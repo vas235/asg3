@@ -4,9 +4,6 @@ library(glmtoolbox)
 
 data <- readRDS("data-2013-2023-final-vars.rds")
 
-start_year <- 2013
-end_year <- 2023
-
 # to allow the GEE model to converge
 # scale the weights by dividing by their mean
 # this should not invalidate the weights
